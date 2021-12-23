@@ -45,16 +45,16 @@ export default function Register() {
     email,
     password,
     confirmPassword,
+    phone,
+    gender,
     street,
     lga,
-    nationality,
     city,
     zipCode,
     lgaOfOrigin,
+    nationality,
     stateOfOrigin,
     maritalStatus,
-    gender,
-    phone,
   }) => {
     closeSnackbar();
     if (password !== confirmPassword) {
